@@ -1,0 +1,18 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"testproject"},
+{"type":"table","name":"tasks","database":"testproject","data":
+[
+{"id":"1","content":"study","user_id":"1","checked":"0","deleted":null},
+{"id":"2","content":"exercise","user_id":"1","checked":"0","deleted":null},
+{"id":"3","content":"new task","user_id":"1","checked":"0","deleted":"1"},
+{"id":"8","content":"Test Two","user_id":"1","checked":"0","deleted":"1"}
+]
+}
+,{"type":"table","name":"user","database":"testproject","data":
+[
+{"id":"1","user":"mahdi","password":"12345678","create_time":"2022-07-06","last_login":"2022-07-25 17:12:42","is_active":"1"},
+{"id":"3","user":"javad","password":"1234","create_time":"2022-07-25","last_login":"2022-07-25 18:14:14","is_active":"1"}
+]
+}
+]
